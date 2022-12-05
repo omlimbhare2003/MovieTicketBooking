@@ -36,6 +36,14 @@ nav ul li{
     cursor: pointer;
     color: white;
 }
+nav ul li:hover{
+    color: #64585b;
+    text-decoration: solid;
+}
+nav ul li a:hover{
+    color: #64585b;
+    text-decoration: solid;
+}
 main{
     padding: 1rem;
     width: 100%;
@@ -52,6 +60,10 @@ main{
     font-size: 25px;
     color: #FF416C;
     text-decoration: none;
+}
+.movie-holder a:hover{
+    color: rgb(111, 68, 68);
+    text-decoration:solid;
 }
 #loader{
     position: relative;
